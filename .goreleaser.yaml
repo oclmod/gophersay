@@ -45,7 +45,6 @@ changelog:
 
 brews:
 - name: gophersay
-  homepage: https://github.com/oclmod/homebrew-tools 
-  tap:
-    owner: oclmod
-    name: homebrew-tools
+  alternative_names:
+      - "gophersay@{{ .v1.0.21 }}.{{ .Minor }}"
+    # other fields
