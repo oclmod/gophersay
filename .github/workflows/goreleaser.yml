@@ -33,6 +33,6 @@ jobs:
           args: release --clean
         env:
           
-          GITHUB_TOKEN: $APT
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          
           
