@@ -47,7 +47,7 @@ changelog:
 
 brews:
 - name: gophersay
-  homepage: https://github.com/oclmod/homebrew-tools 
+  homepage: https://github.com/oclmod/homebrew-tools.git
   repository:
     owner: oclmod
     name: homebrew-tools
