@@ -8,8 +8,7 @@
 
 version: 2
 
-permissions:
-  contents: write
+
   
 before:
   hooks:
@@ -47,6 +46,8 @@ changelog:
       - "^test:"
 
 brews:
+  permissions:
+    contents: write
 - name: gophersay
   homepage: https://github.com/oclmod/homebrew-tools 
   repository:
