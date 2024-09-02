@@ -1,6 +1,6 @@
 brews:
 - name: gophersay
-  homepage: https://github.com/scraly/homebrew-tools 
+  homepage: https://github.com/oclmod/homebrew-tools 
   tap:
-    owner: scraly
+    owner: oclmod
     name: homebrew-tools
