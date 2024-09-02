@@ -49,4 +49,4 @@ brews:
   repository:
     owner: oclmod
     name: homebrew-tools
-   
+    token: "{{ .Env.TAP_GITHUB_TOKEN }}"
