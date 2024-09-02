@@ -44,7 +44,5 @@ changelog:
       - "^test:"
 
 brews:
-- name: gophersay
-  alternative_names:
-      - "gophersay@v1.0.22"
-    # other fields
+- name: homebrew-tools
+  homepage: https://github.com/oclmod/homebrew-tools 
