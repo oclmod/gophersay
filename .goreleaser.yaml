@@ -8,6 +8,9 @@
 
 version: 2
 
+permissions:
+  contents: write
+  
 before:
   hooks:
     # You may remove this if you don't use go modules.
@@ -49,4 +52,4 @@ brews:
   repository:
     owner: oclmod
     name: homebrew-tools
-    token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+   
