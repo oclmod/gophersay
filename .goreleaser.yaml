@@ -51,4 +51,8 @@ brews:
   repository:
     owner: oclmod
     name: homebrew-tools
-   
+  commit_author:
+    name: oclmod
+    email: u20171159884@usco.edu.co
+  token: ${{ secrets.GITHUB_TOKEN }}
+  directory: https://github.com/oclmod/homebrew-tools/blob/main/
