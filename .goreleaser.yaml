@@ -51,3 +51,4 @@ brews:
   repository:
     owner: oclmod
     name: homebrew-tools
+  skip_upload: true
