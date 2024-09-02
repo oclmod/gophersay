@@ -46,8 +46,6 @@ changelog:
       - "^test:"
 
 brews:
-  permissions:
-    contents: write
 - name: gophersay
   homepage: https://github.com/oclmod/homebrew-tools.git
   repository:
