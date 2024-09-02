@@ -42,3 +42,10 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
+brews:
+- name: gophersay
+  homepage: https://github.com/scraly/homebrew-tools 
+  tap:
+    owner: scraly
+    name: homebrew-tools
