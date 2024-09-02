@@ -52,6 +52,7 @@ brews:
     owner: oclmod
     name: homebrew-tools
     token: "{{ .Env.GITHUB_TOKEN }}"
+    branch: main
   commit_author:
     name: oclmod
     email: u20171159884@usco.edu.co
