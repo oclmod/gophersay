@@ -51,4 +51,9 @@ brews:
   repository:
     owner: oclmod
     name: homebrew-tools
-  skip_upload: true
+    pull_request:
+        # Whether to enable it or not.
+      enabled: true
+
+        # Whether to open the PR as a draft or not.
+      draft: true
